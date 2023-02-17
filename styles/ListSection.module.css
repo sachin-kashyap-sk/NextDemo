@@ -1,0 +1,16 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  flex-wrap: wrap;
+  padding-top: 2%;
+}
+
+.listPoint {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  border: 1px solid #000;
+  border-bottom: 1px solid #000;
+}

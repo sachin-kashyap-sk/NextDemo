@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  background: linear-gradient(270deg, #4b6cb7, #182848);
+  min-height: 100vh;
+}
+
+.headerText {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+  width: 100%;
+  justify-content: center;
+}
+
+.input {
+  border-radius: 5px;
+  width: 30%;
+  padding: 1%;
+}
+
+.btn {
+  padding: 1%;
+  color: aqua;
+  background-color: #000000;
+  width: 5%;
+  border-radius: 5px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  flex-wrap: wrap;
+  padding-top: 2%;
+}
+
+.listPoint {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.todo {
+  font-size: 20px;
+  color: #ffffff;
+}
