@@ -34,25 +34,3 @@
   width: 5%;
   border-radius: 5px;
 }
-
-.listContainer {
-  display: flex;
-  flex-direction: column;
-  width: 35%;
-  flex-wrap: wrap;
-  padding-top: 2%;
-}
-
-.listPoint {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2%;
-  border: 1px solid #fff;
-  border-radius: 5px;
-}
-
-.todo {
-  font-size: 20px;
-  color: #ffffff;
-}

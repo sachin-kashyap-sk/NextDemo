@@ -11,6 +11,20 @@
   align-items: center;
   justify-content: space-between;
   padding: 2%;
-  border: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-top: 3%;
+}
+
+.todo {
+  font-size: 20px;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.viewBtn {
+  padding: 1%;
+  background-color: #000;
+  color: aqua;
+  border-radius: 5px;
 }
